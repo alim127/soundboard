@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+img
+{
+    width: 70px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1
+{
+    text-align: center;
+    color: #eea990;
+}
+
+p
+{
+    text-align: center;
+    color: #f1bba7;
+}
+
+button
+{
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+    border: none;
+    
+}
+
+#board
+{
+    height: 1000px;
+    background-image: url("C:/Users/audrey/Documents/Web_Dev/image_assets/sky_aesthetic.jpg");
+
+}
+
+#one
+{
+    background-color: #cca4c5;
+}
+
+#two
+{
+    background-color: #807fbb;   
+}
+
+#three
+{
+    background-color: #524595;
+}
+
+#four
+{
+    background-color: #3e2377;
+}
+
+#five
+{
+    background-color: #28085f;
+}
+#six
+{
+    background-color: #200849;
+}
+
+#seven
+{
+    background-color: #F7DAE8;
+}
+
+#eight
+{
+    background-color: #F7BAD3;
+}
+
+#nine
+{
+    background-color: #EE8EA5;
+}
+
+#ten
+{
+    background-color: #EA79A3;
+}
+
+#eleven
+{
+    background-color: #D84F74;
+}
+
+#tweleve
+{
+    background-color: #b64a66;
+}
