@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="soundboard.css">
+    <link rel="shortcut icon" type="image/png" href="img/cloud.png">
+   
+    <title>Soundboard</title>
+</head>
+<body>
+
+    <div id="board">
+        <img src="img/music_note.png">
+        <h1>Soundboard</h1>
+        <p>Press some buttons to make some music or just noise.</p>
+        <audio id="audio1">
+            <source src="sound/drums.wav" type="audio/mpeg">
+        </audio>
+        <button id="one" onclick="play_sound_1()">1</button>
+
+        <audio id="audio2">
+            <source src="sound/guitar.wav" type="audio/mpeg">
+        </audio>
+        <button onclick="play_sound_2()" id="two">2</button>
+
+        <audio id="audio3">
+            <source src="sound/party.wav" type="audio/mpeg">
+        </audio>
+        <button onclick="play_sound_3()" id="three">3</button>
+
+        <audio id="audio4">
+            <source src="sound/synth_drums.wav" type="audio/mpeg">
+        </audio>
+        <button onclick="play_sound_4()" id="four">4</button>
+
+        <audio id="audio5">
+            <source src="sound/piano_happy.wav" type="audio/mpeg">
+        </audio>
+        <button onclick="play_sound_5()" id="five">5</button>
+
+        <audio id="audio6">
+            <source src="sound/trumpet.wav" type="audio/mpeg">
+        </audio>
+        <button onclick="play_sound_6()"id="six">6</button>
+
+        <audio id="audio7">
+            <source src="sound/guitar_riff.wav" type="audio/mpeg">
+        </audio>
+        <button onclick="play_sound_7()"id="seven">7</button>
+
+        <audio id="audio8">
+            <source src="sound/recorder.wav" type="audio/mpeg">
+        </audio>
+        <button onclick="play_sound_8()"id="eight">8</button>
+
+        <audio id="audio9">
+            <source src="sound/snare_drum1.wav" type="audio/mpeg">
+        </audio>
+        <button onclick="play_sound_9()" id="nine">9</button>
+
+        <audio id="audio10">
+            <source src="sound/piano_melody.wav" type="audio/mpeg">
+        </audio>
+        <button onclick="play_sound_10()" id="ten">10</button>
+
+        <audio id="audio11">
+            <source src="sound/tambourine.wav" type="audio/mpeg">
+        </audio>
+        <button onclick="play_sound_11()" id="eleven">11</button>
+    
+        <audio id="audio12">
+            <source src="sound/synth_2.mp3" type="audio/mpeg">
+        </audio>
+        <button onclick="play_sound_12()" id="tweleve">12</button>
+
+
+    </div>
+
+    <script type="text/javascript" src="soundboard.js"></script>
+</body>
+</html>
