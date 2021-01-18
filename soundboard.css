@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-img
+#note
 {
     width: 70px;
     height: 100px;
@@ -41,7 +41,7 @@ button
 #board
 {
     height: 1000px;
-    background-image: url("img/sky_aesthetic.jpg");
+    background-image: url("sky_aesthetic.jpg");
 
 }
 
